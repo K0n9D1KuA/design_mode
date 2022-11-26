@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea419b29-9027-499f-a3cd-8696eba941c1" name="默认变更列表" comment="2022年11月26日16:45:10 更新 组合模式-决策树" />
+    <list default="true" id="ea419b29-9027-499f-a3cd-8696eba941c1" name="默认变更列表" comment="2022年11月26日16:52:42  添加构建决策树数据库脚本">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +36,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\31617\Desktop\项目\design_mode" />
+      <recent name="C:\Users\31617\Desktop\项目\design_mode\decision_tree" />
       <recent name="C:\Users\31617\Desktop\项目\design_mode\strategy_factory_template_demo\src\main\java\com\qyh\strategy_factory_template_demo" />
     </key>
   </component>
@@ -41,7 +47,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DecisionTreeApplicationTests.contextLoads">
+  <component name="RunManager" selected="Spring Boot.ChainOfResponsibilityDemoApplication">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -67,6 +73,13 @@
       <option name="MAIN_CLASS_NAME" value="com.qyh.decision_tree.DecisionTreeApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChainOfResponsibilityDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chain_of_responsibility_demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qyh.chain_of_responsibility_demo.ChainOfResponsibilityDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669450114973</updated>
       <workItem from="1669450117417" duration="1054000" />
-      <workItem from="1669451554837" duration="963000" />
+      <workItem from="1669451554837" duration="2232000" />
     </task>
     <task id="LOCAL-00001" summary="策略+工厂+模板方法设计模式优雅简化冗余的if else">
       <created>1669451143206</created>
@@ -116,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669452337752</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2022年11月26日16:52:42  添加构建决策树数据库脚本">
+      <created>1669452773098</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669452773098</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +157,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="策略+工厂+模板方法设计模式优雅简化冗余的if else" />
     <MESSAGE value="2022年11月26日16:45:10 更新 组合模式-决策树" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022年11月26日16:45:10 更新 组合模式-决策树" />
+    <MESSAGE value="2022年11月26日16:52:42  添加构建决策树数据库脚本" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022年11月26日16:52:42  添加构建决策树数据库脚本" />
   </component>
 </project>
