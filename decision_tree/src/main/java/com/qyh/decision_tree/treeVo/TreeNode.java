@@ -23,6 +23,7 @@ import java.util.List;
 @Data
 public class TreeNode {
 
+
     //属于哪颗决策树
     private Long treeId;
     //当前节点id
