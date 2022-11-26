@@ -4,7 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea419b29-9027-499f-a3cd-8696eba941c1" name="默认变更列表" comment="">
+    <list default="true" id="ea419b29-9027-499f-a3cd-8696eba941c1" name="默认变更列表" comment="策略+工厂+模板方法设计模式优雅简化冗余的if else">
+      <change afterPath="$PROJECT_DIR$/decision_tree/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/DecisionTreeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/config/TreeRichConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/constant/DecisionTreeConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/factory/TreeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/logic/BaseLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/logic/IEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/logic/IEngineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/logic/LogicFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/logic/concretFilter/AgeLogicFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/logic/concretFilter/SexLogicFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/mapper/TreeNodeLinkMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/mapper/TreeNodeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/mapper/TreeRichMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/service/TreeNodeLinkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/service/TreeNodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/service/TreeRichService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/service/impl/TreeNodeLinkServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/service/impl/TreeNodeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/service/impl/TreeRichServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/treeVo/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/treeVo/TreeNodeLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/treeVo/TreeRich.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/src/test/java/com/qyh/decision_tree/DecisionTreeApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/DecisionTreeApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/config/TreeRichConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/constant/DecisionTreeConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/factory/TreeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/logic/AgeLogicFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/logic/BaseLogic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/logic/IEngine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/logic/IEngineImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/logic/LogicFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/logic/SexLogicFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/mapper/TreeNodeLinkMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/mapper/TreeNodeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/mapper/TreeRichMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/service/TreeNodeLinkService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/service/TreeNodeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/service/TreeRichService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/service/impl/TreeNodeLinkServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/service/impl/TreeNodeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/service/impl/TreeRichServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/vo/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/vo/TreeNodeLink.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/vo/TreeRich.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decision_tree/target/test-classes/com/qyh/decision_tree/DecisionTreeApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -27,23 +80,56 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/strategy_factory_template_demo/src/main/java/com/qyh/strategy_factory_template_demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\31617\Desktop\项目\design_mode" />
       <recent name="C:\Users\31617\Desktop\项目\design_mode\strategy_factory_template_demo\src\main\java\com\qyh\strategy_factory_template_demo" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.DecisionTreeApplicationTests.contextLoads">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecisionTreeApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="decision_tree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qyh.decision_tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qyh.decision_tree" />
+      <option name="MAIN_CLASS_NAME" value="com.qyh.decision_tree.DecisionTreeApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecisionTreeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="decision_tree" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qyh.decision_tree.DecisionTreeApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -55,6 +141,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DecisionTreeApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,8 +155,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669450114973</updated>
-      <workItem from="1669450117417" duration="756000" />
+      <workItem from="1669450117417" duration="1054000" />
+      <workItem from="1669451554837" duration="658000" />
     </task>
+    <task id="LOCAL-00001" summary="策略+工厂+模板方法设计模式优雅简化冗余的if else">
+      <created>1669451143206</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669451143206</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,5 +181,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="策略+工厂+模板方法设计模式优雅简化冗余的if else" />
+    <option name="LAST_COMMIT_MESSAGE" value="策略+工厂+模板方法设计模式优雅简化冗余的if else" />
   </component>
 </project>

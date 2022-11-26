@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/decision_tree/decision_tree.iml" filepath="$PROJECT_DIR$/decision_tree/decision_tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/design_mode.iml" filepath="$PROJECT_DIR$/.idea/design_mode.iml" />
       <module fileurl="file://$PROJECT_DIR$/strategy_factory_template_demo/strategy_factory_template_demo.iml" filepath="$PROJECT_DIR$/strategy_factory_template_demo/strategy_factory_template_demo.iml" />
     </modules>

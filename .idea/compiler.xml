@@ -8,14 +8,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="strategy_factory_template_demo" />
+        <module name="decision_tree" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="decision_tree" target="1.8" />
       <module name="strategy_factory_template_demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="decision_tree" options="-parameters" />
       <module name="strategy_factory_template_demo" options="-parameters" />
     </option>
   </component>
