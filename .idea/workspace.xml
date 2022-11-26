@@ -4,63 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea419b29-9027-499f-a3cd-8696eba941c1" name="默认变更列表" comment="策略+工厂+模板方法设计模式优雅简化冗余的if else">
-      <change afterPath="$PROJECT_DIR$/decision_tree/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/DecisionTreeApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/config/TreeRichConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/constant/DecisionTreeConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/factory/TreeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/logic/BaseLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/logic/IEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/logic/IEngineImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/logic/LogicFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/logic/concretFilter/AgeLogicFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/logic/concretFilter/SexLogicFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/mapper/TreeNodeLinkMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/mapper/TreeNodeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/mapper/TreeRichMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/service/TreeNodeLinkService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/service/TreeNodeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/service/TreeRichService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/service/impl/TreeNodeLinkServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/service/impl/TreeNodeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/service/impl/TreeRichServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/treeVo/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/treeVo/TreeNodeLink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/java/com/qyh/decision_tree/treeVo/TreeRich.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/src/test/java/com/qyh/decision_tree/DecisionTreeApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/DecisionTreeApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/config/TreeRichConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/constant/DecisionTreeConstant.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/factory/TreeFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/logic/AgeLogicFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/logic/BaseLogic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/logic/IEngine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/logic/IEngineImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/logic/LogicFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/logic/SexLogicFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/mapper/TreeNodeLinkMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/mapper/TreeNodeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/mapper/TreeRichMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/service/TreeNodeLinkService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/service/TreeNodeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/service/TreeRichService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/service/impl/TreeNodeLinkServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/service/impl/TreeNodeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/service/impl/TreeRichServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/vo/TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/vo/TreeNodeLink.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/classes/com/qyh/decision_tree/vo/TreeRich.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decision_tree/target/test-classes/com/qyh/decision_tree/DecisionTreeApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ea419b29-9027-499f-a3cd-8696eba941c1" name="默认变更列表" comment="2022年11月26日16:45:10 更新 组合模式-决策树" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669450114973</updated>
       <workItem from="1669450117417" duration="1054000" />
-      <workItem from="1669451554837" duration="658000" />
+      <workItem from="1669451554837" duration="963000" />
     </task>
     <task id="LOCAL-00001" summary="策略+工厂+模板方法设计模式优雅简化冗余的if else">
       <created>1669451143206</created>
@@ -165,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669451143206</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2022年11月26日16:45:10 更新 组合模式-决策树">
+      <created>1669452337752</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669452337752</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +136,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="策略+工厂+模板方法设计模式优雅简化冗余的if else" />
-    <option name="LAST_COMMIT_MESSAGE" value="策略+工厂+模板方法设计模式优雅简化冗余的if else" />
+    <MESSAGE value="2022年11月26日16:45:10 更新 组合模式-决策树" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022年11月26日16:45:10 更新 组合模式-决策树" />
   </component>
 </project>
