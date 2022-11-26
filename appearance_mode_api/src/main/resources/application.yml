@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+
+
+# 自定义中间件配置
+kongdekua:
+  door:
+    enabled: true
+    userStr: 1001,aaaa,ccc #白名单用户ID，多个逗号隔开

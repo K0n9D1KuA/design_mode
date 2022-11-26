@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="appearance_mode_api:war">
+    <output-path>$PROJECT_DIR$/appearance_mode_api/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>appearance_mode_api</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="itstack-demo-design-10-00-2.7.1.war">
+      <element id="artifact" artifact-name="appearance_mode_api:war exploded" />
+    </root>
+  </artifact>
+</component>
