@@ -15,16 +15,23 @@ import java.util.HashMap;
 class DecisionTreeApplicationTests {
     @Autowired
     private IEngine iEngine;
+    @Autowired
+    private
 
     @Test
     void contextLoads() {
         HashMap<String, String> matterMap = new HashMap<>();
-        matterMap.put(DecisionTreeConstant.SEX_DECISION, "女");
-        matterMap.put(DecisionTreeConstant.AGE_DECISION, "20");
-        TreeRich treeRich = TreeFactory.getTreeRich(DecisionTreeConstant.CROWD_DISTRIBUTION_DECISION_TREE);
+        matterMap.put(DecisionTreeConstant.SEX_DECISION, "人妖");
+        matterMap.put(DecisionTreeConstant.AGE_DECISION, "15");
+        TreeRich treeRich = TreeFactory.getTreeRich("people");
         TreeNode resultTreeNode = iEngine.execute(treeRich, matterMap, 311331l);
         System.out.println(resultTreeNode.getDescription());
         //打印结果： 青女
+    }
+
+    @Test
+    void test1() {
+
     }
 
 }

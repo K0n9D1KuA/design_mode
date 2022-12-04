@@ -37,4 +37,7 @@ public class TreeNode {
     private List<TreeNodeLink> treeNodeLinkList;
     //node 类型     //叶子节点：1 非叶子节点：0
     private Integer treeNodeType;
+    @TableField(exist = false)
+    //层级
+    private Integer level;
 }

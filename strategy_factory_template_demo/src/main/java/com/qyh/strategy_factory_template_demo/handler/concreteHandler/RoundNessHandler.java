@@ -21,11 +21,8 @@ public class RoundNessHandler extends Handler {
         return "这是圆通物流计价B方法";
     }
 
-    /**
-     * 注册
-     */
-    @PostConstruct
-    public void addLogisticsServiceImplToFactory() {
-        Factory.registerLogisticsHandler(LogisticsConstant.ROUNDNESS_LOGISTICS, this);
+    @Override
+    public Integer getCode() {
+        return LogisticsConstant.ROUNDNESS_LOGISTICS;
     }
 }

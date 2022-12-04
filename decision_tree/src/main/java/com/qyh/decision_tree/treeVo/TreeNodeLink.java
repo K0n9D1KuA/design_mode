@@ -4,10 +4,10 @@ package com.qyh.decision_tree.treeVo;
 import lombok.Data;
 
 /**
- * @description: 树枝 用来连接树节点和做判断
  * @author 空德夸
- * @date 2022/11/24 23:39
  * @version 1.0
+ * @description: 树枝 用来连接树节点和做判断
+ * @date 2022/11/24 23:39
  */
 
 @Data
@@ -21,5 +21,7 @@ public class TreeNodeLink {
     private Integer limitType;
     //树枝判断值
     private String limitValue;
+    //哪颗树？
+    private Long treeId;
 
 }

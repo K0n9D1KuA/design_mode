@@ -3,16 +3,17 @@ package com.qyh.strategy_factory_template_demo.handler;
 public abstract class Handler {
 
     //计价A方法
-    public String calculateA()
-    {
+    public String calculateA() {
         throw new UnsupportedOperationException();
     }
 
     //计价B方法
-    public String calculateB()
-    {
+    public String calculateB() {
         throw new UnsupportedOperationException();
     }
 
-
+    //获得code的方法
+    public Integer getCode() {
+        throw new UnsupportedOperationException();
+    }
 }

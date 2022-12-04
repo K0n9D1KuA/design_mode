@@ -18,11 +18,8 @@ public class ZTHandler extends Handler {
     }
 
 
-    /**
-     * 注册
-     */
-    @PostConstruct
-    public void addLogisticsServiceImplToFactory() {
-        Factory.registerLogisticsHandler(LogisticsConstant.ZT_LOGISTICS, this);
+    @Override
+    public Integer getCode() {
+        return LogisticsConstant.ZT_LOGISTICS;
     }
 }

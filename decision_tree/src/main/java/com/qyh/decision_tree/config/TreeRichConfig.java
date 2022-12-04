@@ -38,23 +38,27 @@ public class TreeRichConfig {
         List<TreeRich> treeRiches = treeRichService.list();
         List<TreeNodeLink> treeNodeLinkList = treeNodeLinkService.list();
         List<TreeNode> treeNodeList = treeNodeService.list();
-        treeRiches.stream().forEach(
-                treeRich -> {
-                    Map<Long, TreeNode> longTreeNodeMap = treeNodeList.stream()
-                            //过滤
-                            .filter(treeNode -> treeNode.getTreeId().equals(treeRich.getTreeId()))
-                            .peek(treeNode -> {
-                                treeNode.setTreeNodeLinkList(treeNodeLinkList
-                                        .stream()
-                                        .filter(treeNodeLink -> treeNodeLink.getTreeNodeFromId().equals(treeNode.getTreeNodeId()))
-                                        .collect(Collectors.toList()));
-                            })
-                            .collect(Collectors
-                                    .toMap(TreeNode::getTreeNodeId, treeNode -> treeNode));
-                    treeRich.setTreeNodeMap(longTreeNodeMap);
-                    TreeFactory.registerTreeRich(treeRich.getTreeRichName(), treeRich);
-                }
-        );
+        if (treeRiches != null && treeRiches.size() > 0) {
+            treeRiches.stream().forEach(
+                    treeRich -> {
+                        Map<Long, TreeNode> longTreeNodeMap = treeNodeList.stream()
+                                //过滤
+                                .filter(treeNode -> treeNode.getTreeId().equals(treeRich.getTreeId()))
+                                .peek(treeNode -> {
+                                    treeNode.setTreeNodeLinkList(treeNodeLinkList
+                                            .stream()
+                                            .filter(treeNodeLink -> treeNodeLink.getTreeNodeFromId().equals(treeNode.getTreeNodeId()))
+                                            .filter(treeNodeLink -> treeNodeLink.getTreeId().equals(treeRich.getTreeId()))
+                                            .collect(Collectors.toList()));
+                                })
+                                .collect(Collectors
+                                        .toMap(TreeNode::getTreeNodeId, treeNode -> treeNode));
+                        treeRich.setTreeNodeMap(longTreeNodeMap);
+                        TreeFactory.registerTreeRich(treeRich.getTreeRichName(), treeRich);
+                    }
+            );
+        }
+
 // 原来生成决策树的方法
 //        //决策树id 888
 //        TreeNode treeNode11 = new TreeNode();

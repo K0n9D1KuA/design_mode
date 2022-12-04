@@ -7,21 +7,51 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="strategy_factory_template_demo" />
-        <module name="decision_tree" />
+        <module name="decorator_mode" />
+        <module name="appearance_mode_filter" />
         <module name="chain_of_responsibility_demo" />
+        <module name="proxy_mode_demo" />
+        <module name="decision_tree" />
+        <module name="mybatis_demo" />
+        <module name="appearance_mode_api" />
+        <module name="strategy_factory_template_demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="appearance_mode_api" target="1.8" />
+      <module name="appearance_mode_demo" target="16" />
+      <module name="appearance_mode_demo (1)" target="1.8" />
+      <module name="appearance_mode_demo_api" target="1.8" />
+      <module name="appearance_mode_filter" target="1.8" />
       <module name="chain_of_responsibility_demo" target="1.8" />
+      <module name="com-qyh-filter-spring-boot-starter" target="1.5" />
+      <module name="com-qyh-filter-spring-boot-starter-autoconfigure" target="1.8" />
       <module name="decision_tree" target="1.8" />
+      <module name="decorator_mode" target="1.8" />
+      <module name="itstack-demo-design-10-00" target="1.8" />
+      <module name="itstack-demo-design-10-01" target="1.5" />
+      <module name="itstack-demo-design-10-02" target="1.8" />
+      <module name="mybatis_demo" target="1.8" />
+      <module name="proxy_mode_demo" target="1.8" />
       <module name="strategy_factory_template_demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="appearance_mode_api" options="-parameters" />
+      <module name="appearance_mode_demo" options="-parameters" />
+      <module name="appearance_mode_demo (1)" options="-parameters" />
+      <module name="appearance_mode_demo_api" options="-parameters" />
+      <module name="appearance_mode_filter" options="-parameters" />
       <module name="chain_of_responsibility_demo" options="-parameters" />
+      <module name="com-qyh-filter-spring-boot-starter" options="" />
+      <module name="com-qyh-filter-spring-boot-starter-autoconfigure" options="-parameters" />
       <module name="decision_tree" options="-parameters" />
+      <module name="decorator_mode" options="-parameters" />
+      <module name="itstack-demo-design-10-00" options="-parameters" />
+      <module name="itstack-demo-design-10-02" options="-parameters" />
+      <module name="mybatis_demo" options="-parameters" />
+      <module name="proxy_mode_demo" options="-parameters" />
       <module name="strategy_factory_template_demo" options="-parameters" />
     </option>
   </component>

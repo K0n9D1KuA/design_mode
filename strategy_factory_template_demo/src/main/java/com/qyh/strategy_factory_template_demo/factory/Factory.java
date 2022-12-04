@@ -2,29 +2,32 @@ package com.qyh.strategy_factory_template_demo.factory;
 
 
 import com.qyh.strategy_factory_template_demo.handler.Handler;
+import lombok.Data;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
-/**
- * 工厂设计模式
- */
+//存放不同handler的工厂
+@Component
+@Data
 public class Factory {
+    @Autowired
+    private List<Handler> handlerList;
     //不同策略存放不同handler
-    private static Map<Integer, Handler> logisticsHandler = new HashMap<>();
+    private Map<Integer, Handler> logisticsHandlerMap = null;
 
-    //根据logisticsType 找到  LogisticsService
-    public static Handler getInvokeStrategy(Integer logisticsType) {
-        return logisticsHandler.get(logisticsType);
+
+    //初始化 logisticsHandlerMap
+    @PostConstruct
+    public void initLogisticsHandlerMap() {
+        this.logisticsHandlerMap = handlerList
+                .stream()
+                .collect(Collectors.toMap(Handler::getCode, handler -> handler));
     }
 
-    //注册 LogisticsHandler
-    public static void registerLogisticsHandler(Integer logisticsType, Handler logisticsService) {
-        //健壮性判断
-        if (logisticsType == null || logisticsService == null) {
-            return;
-        } else {
-            logisticsHandler.put(logisticsType, logisticsService);
-        }
-    }
 }

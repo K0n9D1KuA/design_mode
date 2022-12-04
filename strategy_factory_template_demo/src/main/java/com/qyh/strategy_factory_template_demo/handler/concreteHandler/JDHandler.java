@@ -19,11 +19,8 @@ public class JDHandler extends Handler {
         return "这是京东计价A方法";
     }
 
-    /**
-     * 注册
-     */
-    @PostConstruct
-    public void addLogisticsServiceImplToFactory() {
-        Factory.registerLogisticsHandler(LogisticsConstant.JD_LOGISTICS, this);
+    @Override
+    public Integer getCode() {
+        return LogisticsConstant.JD_LOGISTICS;
     }
 }

@@ -1,6 +1,7 @@
 package com.qyh.decision_tree.treeVo;
 
 import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
 
 import java.util.Map;
@@ -15,7 +16,7 @@ import java.util.Map;
 @Data
 public class TreeRich {
     //所属于哪颗树？
-
+    @TableId
     private Long treeId;
     //根节点id 入口
     private Long treeRootId;

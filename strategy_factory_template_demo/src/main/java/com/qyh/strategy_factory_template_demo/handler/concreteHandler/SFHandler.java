@@ -19,12 +19,8 @@ public class SFHandler extends Handler {
         return "这是顺丰物流计价B方法";
     }
 
-    /**
-     * 注册
-     */
-    @PostConstruct
-    public void addLogisticsServiceImplToFactory()
-    {
-        Factory.registerLogisticsHandler(LogisticsConstant.SF_LOGISTICS,this);
+    @Override
+    public Integer getCode() {
+        return LogisticsConstant.SF_LOGISTICS;
     }
 }
